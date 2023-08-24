@@ -54,7 +54,7 @@ int Pri_int(va_list i)
 {
 	int divs = 1;
 	int ct = 0;
-	unsigned int num = va_arg(i, unsigned int);
+	int num = va_arg(i, int);
 
 	if (num != 0)
 	{
